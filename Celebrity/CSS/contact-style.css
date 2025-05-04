@@ -1,0 +1,85 @@
+.contact a{
+    color: var(--BrightRed);
+}
+.contact__section{
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px;
+}
+.contact__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__email{
+    margin-top: 20px;
+    width: 400px;
+    height: 420px;
+    border: 5px solid var(--BrightRed);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.column label{
+    font-size: 15px;
+}
+.column input{
+    width: 320px;
+    height: 28px;
+    margin-bottom: 10px;
+    background-color: rgb(233, 231, 231);
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+textarea{
+    width: 320px;
+    height: 80px;
+    background-color: rgb(233, 231, 231);
+    font-size: 15px;
+    padding: 5px 10px;
+
+}
+
+.contact__email form .column .textarea{
+    height: 300px;
+}
+
+
+.sendcta{
+    background-color: var(--BrightRed);
+    padding: 10px 20px;
+    /* border-radius: 25px; */
+    color: var(--white);
+    display: inline-block;
+    font-weight: 600;
+    border: 0;
+    font-size: 15px;
+}
+.sendcta:hover{
+    background-color: var(--purple);
+    border: 3px solid var(--BrightRed);
+    color: var(--black);
+}
+
+.sendbtn{
+    margin-top: 10px;
+}
+
+@media screen and ( max-width: 450px){
+    .contact__email{
+        width: 320px;
+    }
+    .column input{
+        width: 290px;   
+    }
+    textarea{
+        width: 290px;   
+    }
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Card - Celebrity Management</title>
+    <!-- page icon -->
+    <link rel="icon" href="../IMAGES/page icon-dark.PNG" type="">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/membership-card.css">
+
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__content">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <div class="box__logo">
+                                    <div class="box__1">
+                                        <div class="box__2">
+                                            <div class="box__3">
+                                                <div class="box__4">
+                                                    <div class="box__5"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav__logo">
+                                    <h1>QUICK CELEBRITY</h1>
+                                    <h4>BOOKING AGENCY</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <ul class="nav__list">
+                            <ol><a href="./index.html">Home</a></ol>
+                            <ol><a href="./CelebrityList-index.html">Celebrity List</a></ol>
+                            <ol><a href="./About-index.html">About</a></ol>
+                            <ol><a href="./contact-index.html">Contact</a></ol>
+                        </ul>
+
+                        <div class="nav__end">
+                            <div class="nav__cta"><a class="cta" href="./book-now.html">BOOK NOW!</a></div>
+                            <div class="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="overlay">
+            <img src="./image/icon-facebook.svg" alt="">
+        </div>
+
+
+
+        <!-- membership__card__section -->
+        <section class="membership__card__section">
+            <div class="container">
+                <div class="membership__card__content">
+                    <h1>Membership Card Application Form</h1>
+                    <p>Fill out and Submit our simple Membership Card Application Form, our agent will get back
+                        to you shortly to discuss pricing and availability.</p>
+                    <form action="" class="membership__card__application">
+                        <div class="full__name">
+                            <p>Full Name</p>
+                            <div class="full__name__div">
+                                <div id="first__name" class="first__name">
+                                    <input type="text" name="firstname" required><br>
+                                    <label>First Name</label>
+                                </div>
+                                <div class="Last__name">
+                                    <input type="text" name="lastname"><br>
+                                    <label>Last Name</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="address">
+                            <p>Home Address</p>
+                            <div class="address__div">
+                                <div class="street__address">
+                                    <input type="text"><br>
+                                    <label>Street Address</label>
+                                </div>
+                                <div class="city__street">
+                                    <div class="city">
+                                        <input type="text"><br>
+                                        <label>City</label>
+                                    </div>
+                                    <div class="state">
+                                        <input type="text"><br>
+                                        <label>State/Province</label>
+                                    </div>
+                                </div>
+                                <div class="country">
+                                    <input type="text" required><br>
+                                    <label>Country</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="email__address">
+                            <p>Email Address</p>
+                            <div class="email__address__div">
+                                <input type="email" required><br>
+                                <label>example@example.com</label>
+                            </div>
+                        </div>
+
+                        <div class="phone__number">
+                            <p>Phone Number</p>
+                            <div class="phone__number__div">
+                                <input type="number" required><br>
+                                <label>Please enter a valid phone number</label>
+                            </div>
+                        </div>
+
+                        <div class="gender">
+                            <p>Gender</p>
+                            <div class="gender__div">
+                                <div class="male">
+                                    <input type="checkbox" name="">
+                                    <label>Male</label>
+                                </div>
+                                <div class="female">
+                                    <input type="checkbox" name="">
+                                    <label>Female</label>
+                                </div>
+                                <div class="others">
+                                    <input type="checkbox" name="">
+                                    <label>Others</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card__type">
+                            <p>Type of card</p>
+                            <div class="type__card__div">
+                                <select name="Membership Card" size="" required>
+                                    <option value="Card">Card</option>
+                                    <option value="Regular">Regular - $1,000</option>
+                                    <option value="Vip">Vip - $2,000</option>
+                                    <option value="VVip">VVip - $5,000</option>
+                                    <option value="Ultimate">Ultimate - $10,000</option>
+                                </select>
+                                <label>Select Card Type</label>
+                            </div>
+                        </div>
+
+                        <div class="file">
+                            <p>File</p>
+                            <div class="file__div">
+                                <input type="file" accept="image/&"><br>
+                                <label>Select a selfie picture</label>
+                            </div>
+                        </div>
+                        <div id="liveAlertBtn" class="submitbtn"><input class="submitcta" type="submit" value="Submit">
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+
+                        <div class="message">
+                            <!-- <div class="success" id="success">
+                                <p>Your Membership Card Application Form was SUCCESSFULLY SENT!</p>
+                            </div> -->
+                            <!-- <div class="danger" id="danger"> <p>Your Feilds can't be EMPTY!</p></div> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- NEWS SECTION -->
+        <section class="news">
+            <div class="container">
+                <div class="news__content">
+                    <div class="part__1">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <div class="box__logo">
+                                    <div class="box__1">
+                                        <div class="box__2">
+                                            <div class="box__3">
+                                                <div class="box__4">
+                                                    <div class="box__5"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav__logo">
+                                    <h1>QUICK CELEBRITY</h1>
+                                    <h3>BOOKING AGENCY</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <p>Our mission to provide a best_in_class <br> talent booking experience from start to <br>
+                            finish.</p>
+                        <div class="sociallinks">
+                            <img class="faceboook" src="./IMAGES/icon-facebook.svg" alt="">
+                            <img class="youtube" src="./IMAGES/icon-youtube.svg" alt="">
+                            <img class="twitter" src="./IMAGES/icon-twitter.svg" alt="">
+                            <img class="pinterest" src="./IMAGES/icon-pinterest.svg" alt="">
+                            <img class="instagram" src="./IMAGES/icon-instagram.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="part__2">
+                        <h2>Newsletter</h2>
+                        <p>Don't miss a thing! <br> Sign up to receive daily news</p>
+                        <form class="news__form" action="">
+                            <input class="news__input" type="email" placeholder="Your Email Address" required>
+                            <div class="newsbtn"><input class="newscta" type="submit" value="Sign Up"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER SECTION -->
+        <footer>
+            <div class="container">
+                <div class="footer__content">
+                    <p>©2025. GLOBAL MGT BOOKING</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- translator widget BEGIN -->
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = { "default_language": "en", "wrapper_selector": ".gtranslate_wrapper" }</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+    <!-- translator widget END -->
+
+    <script src="./JS/script.js"></script>
+    <script src="./JS/membership_card.js"></script>
+</body>
+
+</html>

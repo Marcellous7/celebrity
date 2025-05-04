@@ -1,0 +1,50 @@
+.cta{
+    background-color: var(--purple);
+    border: 3px solid var(--BrightRed);
+    color: var(--black);
+    padding:12px;
+}
+
+.book__section{
+    background: ;
+    margin: 90px 0;
+    
+}
+.book__content{
+    text-align: center;
+    color: white;
+}
+.book__categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.membershipcardcta{
+    background-color: var(--BrightRed);
+    padding: 10px 20px;
+    /* border-radius: 25px; */
+    color: var(--white);
+    display: inline-block;
+    font-weight: 600;
+}
+.membershipcardcta:hover{
+    background-color: var(--purple);
+    border: 3px solid var(--BrightRed);
+    color: var(--black);
+}
+.bookcelebritycta{
+    background-color: var(--BrightRed);
+    padding: 10px 20px;
+    /* border-radius: 25px; */
+    color: var(--white);
+    display: inline-block;
+    font-weight: 600;
+}
+.bookcelebritycta:hover{
+    background-color: var(--purple);
+    border: 3px solid var(--BrightRed);
+    color: var(--black);
+}

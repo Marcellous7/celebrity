@@ -1,0 +1,124 @@
+/* hero__celbrity-list */
+.celebritylist a{
+    color: var(--BrightRed);
+}
+.hero__celebrity-list{
+    background-image: url(../IMAGES/1800.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    /* width: 100%; */
+    height: 40vh;
+    border-bottom: 1px solid rgb(152, 149, 149);
+    
+}
+.hero__celebrity-list__content{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.hero__celebrity-list__content h2{
+    font-size: 30px;
+}
+.sample__celeb{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    /* min-width: 200px; */
+    
+
+}
+.celebrity__1, .celebrity__2,.celebrity__3,.celebrity__4,.celebrity__5,.celebrity__6, .celebrity__7, .celebrity__8 {
+    height:300px;
+    background-size: cover;
+    background-position: center;
+    flex-grow: 9;
+}
+.celebrity__5{
+    background-image: url(../IMAGES/denzel\ washington.webp);
+}
+.celebrity__6{
+    background-image: url(../IMAGES/Angela\ Bassett.webp);
+}
+.celebrity__7{
+    background-image: url(../IMAGES/patrick\ heusinger.jpg);
+}
+.celebrity__8{
+    background-image: url(../IMAGES/lucy\ liu.webp);
+}
+
+.sample__celeb__overlay{
+    height:300px;
+    width: 100%;
+    color: white;
+}
+
+
+@media screen and ( max-width: 850px){
+    .sample__celeb__overlay p{
+        /* text-align: justify; */
+        
+    
+    } 
+    .sample__celeb{
+        /* display: grid; */
+        grid-template-columns: 1fr 1fr ;
+       
+    }
+    .celebrity__1, .celebrity__2,.celebrity__3,.celebrity__4,.celebrity__5,.celebrity__6,.celebrity__7,.celebrity__8{
+        height:300px;
+        flex-grow: 9;
+    }
+}
+@media screen and ( max-width: 500px){
+    
+    .sample__celeb{
+        width: 270px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        align-items: center;
+        margin: auto;
+
+    }
+    .celebrity__1, .celebrity__2,.celebrity__3,.celebrity__4,.celebrity__5,.celebrity__6,.celebrity__7,.celebrity__8{
+        height:360px;
+        width: 280px;
+    }
+    .sample__celeb__overlay{
+        height:360px;
+        width: 100%;
+    
+    }
+    .sample__celeb__overlay h3{
+        padding-top: 290px;
+    
+    }
+    .sample__celeb__overlay h3{
+        padding-top: 290px;
+    
+    }
+
+
+
+}
+@media screen and ( max-width: 300px){
+    
+}
+
+
+
+
+
+
+
+

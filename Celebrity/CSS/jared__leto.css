@@ -1,0 +1,29 @@
+header{
+    background-color: white;
+}
+.nav__logo h1, .nav__logo h4, .nav__list ol a{
+    color: black;
+}
+.nav__list a:after {
+    background-color: black;
+}
+
+.hamburger span {
+    background-color: black;
+}
+
+
+@media screen and ( max-width: 900px){
+    .nav__list{
+        background-color: black;
+        
+    }
+    .nav__list ol a{
+        color: white ;
+    }
+    .overlay {
+        background-color: white;
+ 
+    }
+
+}
